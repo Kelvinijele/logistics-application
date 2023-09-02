@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 0;
+}
+#home-nav{
+		width: 100%;
+	height: 10vh;
+	background-color: #ef1d52;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#home-nav .topLogo svg{
+	background-color: azure;
+    padding: 2%;
+    border: rgb(241, 54, 132) 2px solid;
+    box-shadow: 3px 4px 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    height: 7vh;
+	margin-right: 2%;
+	width: 60px;
+}
+
+.triangle {
+	width: 27%;
+	height: 52vh;
+	transform: rotate(10deg);
+	clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.bodyText {
+	display: inline-block;
+	margin-top: 20vh;
+	margin-left: 5%;
+	width: 38%;
+}
+
+.bodyText h1 {
+	font-size: 60px;
+}
+
+.bodyImages Img:nth-child(1) {
+	position: absolute;
+	top: 27%;
+	width: 25%;
+	left: 50%;
+	z-index: -1;
+	animation: imageAnimation 2s infinite 1s infinite;
+}
+.bodyImages Img:nth-child(3) {
+	position: absolute;
+	top: 46%;
+	left: 71%;
+	width: 17%;
+	z-index: -1;
+}
+.bodyImages Img:nth-child(2) {
+	position: absolute;
+	top: 15%;
+	left: 68%;
+	width: 17%;
+	z-index: -2;
+}
+br {
+	margin: 0%;
+	padding: 0%;
+}
+.space2 {
+	background-color: #788abc;
+	width: 3.8%;
+	margin-top: 3%;
+	margin-left: -1.5%;
+	justify-content: center;
+	z-index: -100;
+	text-align: center;
+	border-radius: 12px;
+	transform: rotate(45deg);
+	color: aliceblue;
+	margin-bottom: -7%;
+	height: 10vh;
+}
+
+.space span {
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.space {
+	background-color: #ef1d52;
+	width: 100%;
+	margin-top: 5%;
+	padding-left: 4%;
+	color: white;
+	align-items: center;
+	padding-top: 0.7%;
+	font-family: 'Open Sans';
+	font-weight: bolder;
+	text-align: justify;
+	transform: rotate(0deg);
+	height: 10vh;
+}
+
+.color {
+	background-color: #ef1d52;
+	margin-left: 43%;
+	margin-top: 1%;
+	justify-content: center;
+	width: 4%;
+	height: 1vh;
+}
+.ourOffer {
+	margin-left: 43%;
+	font-size: large;
+	font-weight: bolder;
+}
+
+.delivery-icons {
+	justify-content: center;
+	align-items: center;
+	margin-top: 5%;
+}
+.delivery-icons img:nth-child(1) {
+	width: 10%;
+	margin-left: 30%;
+	margin-right: 7%;
+	height: 12vh;
+}
+.delivery-icons img:nth-child(2) {
+	width: 10%;
+	height: 12vh;
+}
+

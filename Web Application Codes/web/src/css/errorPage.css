@@ -1,0 +1,30 @@
+.errorPageNav {
+    background-color: #EF1D52;
+    height: 10vh;
+}
+.errorPageBody {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    color:#FF4874;
+    align-items: center;
+}
+.errorPageBody .errorPagelogo{ 
+    width: 40%; 
+    margin: auto; 
+    margin-top: 1%;
+}
+.errorPagelogo svg{
+	background-color: azure;
+    padding: 2%;
+    border: rgb(241, 54, 132) 2px solid;
+    box-shadow: 3px 4px 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    height: 7vh;
+	width: 60px;
+}
+.errorPageHeader{
+    color: #FF4874;
+    display: block !important;
+     min-width: 100% !important;
+}

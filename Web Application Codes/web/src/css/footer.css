@@ -1,0 +1,29 @@
+*{
+    font-family: '';
+}
+.footer {
+	width: 100%;
+	height: 15vh;
+	margin-top: 30%;
+	padding: 2% 1%;
+	background-color: #ef1d52;
+}
+.footerLogo{
+    width: 170px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerLogo svg{
+	background-color: azure;
+    padding: 2%;
+    border: rgb(241, 54, 132) 2px solid;
+    box-shadow: 3px 4px 6px rgb(0 0 0 / 30%);
+    border-radius: 10px;
+    height: 7vh;
+	width: 60px;
+}
+.footerText{
+    margin-left: 3%;   
+    color: #fff;
+}

@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#loginDiv{
+    box-shadow:3px 5px 2px rgba(112, 128, 144, .5);
+    border: 1px solid rgb(236, 203, 203);
+    width: 30%;
+    margin: 10% auto;
+    margin-top: 7%;
+    padding: 2% 2% 0% 2%;
+    border-radius: 4%;
+}
+
+#loginHead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: rgb(244, 79, 70);
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#loginForm > label{
+    color: black;
+}
+
+[type ='email']:focus, [type ='password']:focus{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 100%;
+    padding: 1%;
+    background-color:transparent;
+    border: 2px solid rgb(245, 114, 114);
+    outline: none;
+    box-shadow: none;
+}
+
+[type ='email'], [type ='password']{
+    color: black;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    width: 100%;
+    border-radius: 7px;
+    padding: 1%;
+    box-shadow: none;
+    border: 1px solid rgb(245, 114, 114);
+    background-color:transparent;
+    outline: none;
+}
+
+#checkBox{
+    margin-top: 2%;
+}
+
+#socialLinks > a{
+    color: rgb(244, 79, 70);
+    text-decoration: none;
+}
+
+[type = 'submit']{
+    padding: 1.5% 2%;
+    margin: 5% 30%;
+    background-color:rgb(244, 79, 70); 
+    border: none;
+    color: #fff;
+    font-size: large;
+    width: 40%;
+    cursor: pointer;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+    border-radius: 15px;
+    text-align: center;
+}
+[type = 'submit']:hover {
+    padding: 2%;
+    color:rgb(244, 79, 70); 
+    border: 1px solid rgb(244, 79, 70);
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+
+@media (max-width:750px){
+    #loginDiv{
+        width: 80%;
+        margin: 10%;
+        height: 80%;
+    }
+}

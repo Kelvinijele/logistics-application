@@ -1,0 +1,97 @@
+.App {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  label,
+  input {
+    display: block;
+    width: 100%;
+  }
+  
+  label {
+    margin-bottom: 1%;
+    font-size: 14px;
+  }
+  
+  input {
+    margin-bottom: 5%;
+    padding: 2%;
+    background: transparent;
+    font-size: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(236, 203, 203);
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  .input-feedback {
+    color: rgb(235, 54, 54);
+    margin-top: -15px;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color:rgb(226, 74, 74);
+    color: white;
+    border: none;
+    transition: all .8s ease-in-out;
+    border-bottom: 2px solid rgb(236, 203, 203);
+    background-color: 250ms;
+    display: block;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color:rgba(226, 74, 74, .65);
+    cursor: pointer;
+    border: 2px solid rgb(236, 203, 203);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+  }
+
+.social{
+    text-align: center;
+}
+
+.socialSpan{
+    font-size: 12px;
+    padding: 3%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.socials{
+    margin-bottom: 2%;
+}
+.socialf{
+    background: #3b5998;
+    padding: 2%;
+    font-size: 12px;
+    color: #fff;
+}
+.socialg{
+    background: #EA4335;
+    font-size: 12px;
+    padding: 2%;
+    color: #fff;
+}
+.signInAcc{
+    margin-left: 5%;
+    text-align: center;
+}
